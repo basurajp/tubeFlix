@@ -1,12 +1,15 @@
 import React from 'react'
 import SideBar from './SideBar'
 import MianConatiner from './MianConatiner'
+import { Outlet, createBrowserRouter } from 'react-router-dom'
+
+
 
 const Body = () => {
   return (
-    <div className='flex'>
+    <div className='flex relative'>
         <SideBar/>
-        <MianConatiner/>
+        <Outlet />
     </div>
   )
 }
