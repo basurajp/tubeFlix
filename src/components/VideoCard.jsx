@@ -9,11 +9,16 @@ const VideoCard = ({ videoData }) => {
   const { title } = videoData?.snippet;
   const { viewCount } = videoData?.statistics;
 
-  
-
   return (
-    <Link to={`/watch?v=${videoData.id}`} className="w-full lg:w-[30%]  lg:mx-1 lg:h-[40vh]    my-2 p-2 hover:shadow-md rounded-lg">
-      <img src={url} alt="" className="w-full h-[25vh] lg:h-[30vh] px-2 rounded-2xl " />
+    <Link
+      to={`/watch?v=${videoData.id}`}
+      className="w-full lg:w-[30%]  lg:mx-1 lg:h-[40vh]    my-2 p-2 hover:shadow-md rounded-lg"
+    >
+      <img
+        src={url}
+        alt=""
+        className="w-full h-[25vh] lg:h-[30vh] px-2 rounded-2xl "
+      />
       <div className="">
         <div className=" w-full flex items-center my-2 py-1 px-1 overflow-hidden ">
           <img
@@ -38,12 +43,14 @@ const VideoCard = ({ videoData }) => {
   );
 };
 
-
-
-
-
-
-
-
+export const adVideoCard = (VideoCard) => {
+  return ({videoData})=>
+    (
+      <div className="border border-red-300 p-1 m-1 bg-zinc-500 ">
+        <VideoCard videoData={videoData}/>
+      </div>
+    );
+  
+};
 
 export default VideoCard;
