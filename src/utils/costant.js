@@ -9,3 +9,95 @@ export   const   YT_CHANNELPROFILE_URL =`https://yt3.ggpht.com/M8HHa-4HpA1tPBYyC
 export const YOUTUBE_SEARCH_SUGGESTION = `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=`
 
 
+
+ const commentData = [
+    {
+      name: "basuraj",
+      text: "lorem isuen is a comment lorem",
+      replies: [
+        {
+          name: "basuraj",
+          text: "lorem isuen is a comment lorem",
+          replies: [
+            {
+              name: "basuraj",
+              text: "lorem isuen is a comment lorem",
+              replies: [],
+            },
+          ],
+        },
+        {
+          name: "basuraj",
+          text: "lorem isuen is a comment lorem",
+          replies: [
+            {
+              name: "basuraj",
+              text: "lorem isuen is a comment lorem",
+              replies: [
+                {
+                  name: "basuraj",
+                  text: "lorem isuen is a comment lorem",
+                  replies: [
+                    {
+                      name: "basuraj",
+                      text: "lorem isuen is a comment lorem",
+                      replies: [],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "basuraj",
+          text: "lorem isuen is a comment lorem",
+          replies: [
+            {
+              name: "basuraj",
+              text: "lorem isuen is a comment lorem",
+              replies: [
+                {
+                  name: "basuraj",
+                  text: "lorem isuen is a comment lorem",
+                  replies: [
+                    {
+                      name: "basuraj",
+                      text: "lorem isuen is a comment lorem",
+                      replies: [
+                        {
+                          name: "basuraj",
+                          text: "lorem isuen is a comment lorem",
+                          replies: [],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "basuraj",
+      text: "lorem isuen is a comment lorem",
+      replies: [],
+    },
+    {
+      name: "basuraj",
+      text: "lorem isuen is a comment lorem",
+      replies: [],
+    },
+    {
+      name: "basuraj",
+      text: "lorem isuen is a comment lorem",
+      replies: [],
+    },
+    {
+      name: "basuraj",
+      text: "lorem isuen is a comment lorem",
+      replies: [],
+    },
+  ];
