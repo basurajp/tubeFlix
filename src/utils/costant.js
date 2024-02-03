@@ -8,7 +8,7 @@ export   const   YT_CHANNELPROFILE_URL =`https://yt3.ggpht.com/M8HHa-4HpA1tPBYyC
 
 export const YOUTUBE_SEARCH_SUGGESTION = `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=`
 
-
+export const  OFFSET_LIVE_CHAT =30
 
  const commentData = [
     {

@@ -17,7 +17,7 @@ function App() {
       element: <WatchPage/>
     }],
     },
-    // {path:'/',element:<Body/>},
+  // {path:'/',element:<Body/>},
   ]);
 
   return (
